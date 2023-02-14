@@ -12,23 +12,6 @@ We create a program that allows us to use different sorting algorithms(merge, qu
 
 using namespace std;
 
-
-struct Node {
-  string string;
-  Node *next;
-  int number;
-};
-
-struct List {
-  Node *head;
-  size_t size;
-
-  List();
-  ~List();
-
-  void push_front(const string &s);
-};
-
 int main(int argc, char argv[]){
 
     
