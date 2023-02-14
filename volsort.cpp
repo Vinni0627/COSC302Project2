@@ -5,7 +5,7 @@ COSC 302
 
 We create a program that allows us to use different sorting algorithms(merge, quick, qsort, and std:sort) on a linked list of values
 */
-
+#include "llist.h"
 #include <iostream> 
 #include <algorithms>
 #include <string>
@@ -13,6 +13,9 @@ We create a program that allows us to use different sorting algorithms(merge, qu
 using namespace std;
 
 int main(int argc, char argv[]){
+// Oblivious
 
-    
+Node head = new Node();
+
+
 }
